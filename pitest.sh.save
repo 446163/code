@@ -1,0 +1,2 @@
+#!/bin/bash #Pi number generator #CPU performance tester #Built by Zeus-www.thelinuxterminal.com #For more info drop a mail: office@thelinuxterminal.com read -p "Enter decimal number (e.g. 1000): " piscale pi_scale="$piscale" echo time echo "scale=$pi_scale; 4*a(1)" | bc -l 
+echo echo "Done."
