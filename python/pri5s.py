@@ -1,20 +1,14 @@
-#from numbapro import cuda
-
 pri,t,c=5,5,3
 a=[3]
 b=[0]
-
 import threading
-
 def printit():
   threading.Timer(1.0, printit).start()
   print("----------------")
   print(pri)
   print(str((t-b[0])/5)+"n/s")
   b[0]=t
-
 printit()
-
 while 1:
     y,x=0,1
     while x==1 and a[y]<=t**0.5:

@@ -137,10 +137,6 @@ BEGIN {
   else
     print "You quit. Progress was not saved."
 
-  print "Credits: Fedor 'TheMozg' Kalugin"
-  print "https://github.com/TheMozg/awk-raycaster"
-  print "Gameplay testing - Alex 'Yakojo' & Danya 'bogych97'"
-  print "Go away!"
 }
 
 function addSprite(x,y, dX,dY, tex, color, isBright, type, uDiv, vDiv, vMove) {
